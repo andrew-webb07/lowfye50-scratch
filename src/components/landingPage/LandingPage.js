@@ -10,7 +10,7 @@ export const LandingPage = () => (
             <img src={lowfye50black} alt="logo" className="logo resize" />
         </div>
         <div className="logoContainer">
-            <img src={bandPic} alt="logo" className="logo" />
+            <img src={bandPic} alt="logo" className="bandPic" />
         </div>
         <h2 text-align="center">BIO</h2>
         <Tour />

@@ -1,6 +1,4 @@
 import React from "react"
-import lowfye50black from "../images/lowfye50black.jpg"
-import bandPic from "../images/bandPic.jpg"
 import "./Tour.css"
 
 export const Tour = () => (

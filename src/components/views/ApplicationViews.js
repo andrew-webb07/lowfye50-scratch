@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { LandingPage } from "../landingPage/LandingPage"
+import { Music } from "../musicPage/Music"
 import { Tour } from "../tour/Tour"
 
 export const ApplicationViews = () => {
@@ -8,6 +9,8 @@ export const ApplicationViews = () => {
             <Route path="" element={ <LandingPage /> } />
 
             <Route path="/tour" element={ <Tour /> } />
+
+            <Route path="/music" element={ <Music /> } />
         </Routes>
     )
 }

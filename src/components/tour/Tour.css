@@ -13,6 +13,7 @@
 .tourDates {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 1.5em;
 }
 
@@ -20,7 +21,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 75%;
+    flex-wrap: wrap;
+    min-width: 75%;
 }
 
 .tourDateInfoBox {

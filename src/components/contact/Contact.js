@@ -5,8 +5,10 @@ export const Contact = () => (
     <>
         <div className="contactContainer">
             <div className="contactSection">
-                <h1>SHARE</h1>
-                <div className="lowfyeHashTag"><em>#Lowfye50</em></div>
+                <div className="headerSection">
+                    <h1>SHARE  -</h1>
+                    <h1 className="lowfyeHashTag"><em>#Lowfye50</em></h1>
+                </div>
                 <div className="icons">
                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=lowfye50.com" className="fab fa-facebook"></a>
 
@@ -17,11 +19,11 @@ export const Contact = () => (
             </div>
 
             <div className="contactSection">
-                <h1>CONNECT</h1>
+                <h1>FOLLOW</h1>
                 <div className="icons">
                 <a target="_blank" href="https://www.instagram.com/lowfye50/" className="fab fa-instagram"></a>
                 <a target="_blank" href="https://www.tiktok.com/@lowfye50?lang=en" className="fab fa-tiktok"></a>
-                <a target="_blank" href="https://www.tiktok.com/@lowfye50?lang=en" className="fab fa-spotify"></a>
+                <a target="_blank" href="" className="fab fa-spotify"></a>
                 </div>
             </div>
 

@@ -1,0 +1,19 @@
+.solid {
+    border-top: 3px solid #bbb;
+    padding: 1em;
+    margin: .5em;
+  }
+
+.noMerchBox {
+    display: flex;
+    justify-content: center;
+}
+
+.noMerch {
+    color: #bbb;
+    text-align: center;
+    font-size: 2em;
+    padding: 1.5em 5em 1.5em 5em;
+    border: #bbb solid .3em;
+    max-width: 15%;
+}

@@ -1,0 +1,95 @@
+.contactContainer {
+    background-color:rgb(78, 78, 78);
+    min-height: 20em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 33%
+}
+
+.shareHeader {
+    margin: 0;
+    padding: 1em 1em 0em 1em;
+    /* font-size: 2.5em; */
+}
+
+.lowfyeHashTag {
+    text-align: center;
+}
+
+.icons {
+    display:flex;
+    justify-content: center;
+}
+
+.fab {  
+    padding: 1rem;  
+    text-align: center;  
+    margin: 1em .5em;  
+    font-size: 2em;  
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}  
+
+.fa {  
+    padding: 1rem;  
+    text-align: center;  
+    margin: 1em .5em;  
+    font-size: 2em;  
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+} 
+
+.fa:hover {  
+    opacity: 0.6;  
+} 
+
+.fab:hover {  
+    opacity: 0.6;  
+} 
+
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;
+}  
+
+.fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+}  
+
+.fa-envelope {  
+    background: #3167ef;  
+    color: white;  
+}  
+
+.fa-instagram {  
+    background: #bc2a8d;  
+    color: white;
+    filter: drop-shadow(2px 0px 0px #fccc63) 
+            drop-shadow(-2px -2px 0px #fbad50)
+            drop-shadow(2px 0px 2px #5851DB);
+}  
+.fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+}  
+
+.fa-spotify {  
+    background: #000000;  
+    color: #1DB954;  
+}  
+
+.fa-tiktok {
+    color: #111111;
+    background: #e4e4e4; 
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+  }

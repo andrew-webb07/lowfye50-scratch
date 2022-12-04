@@ -4,11 +4,15 @@
 }
 
 .resize {
-    width: 70em;
+    width: 77%;
     height: auto;
 }
 
+.logo {
+    width: 77%;
+}
+
 .bandPic {
-    width: 64em;
+    width: 70%;
     height: auto;
 }

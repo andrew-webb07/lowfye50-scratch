@@ -23,7 +23,7 @@ export const Contact = () => (
                 <div className="icons">
                 <a target="_blank" href="https://www.instagram.com/lowfye50/" className="fab fa-instagram"></a>
                 <a target="_blank" href="https://www.tiktok.com/@lowfye50?lang=en" className="fab fa-tiktok"></a>
-                <a target="_blank" href="" className="fab fa-spotify"></a>
+                <a target="_blank" href="https://open.spotify.com/artist/72ZHgiAkpuDJC9P2C2HGZI?si=T9yidNLCQzeM20oDpu-epA" className="fab fa-spotify"></a>
                 </div>
             </div>
 

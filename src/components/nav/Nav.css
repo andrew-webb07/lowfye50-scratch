@@ -27,9 +27,9 @@
     text-align: center;
     /* background-color: rgb(78, 78, 78); */
     /* box-shadow: black .2em .2em .2em; */
-    margin-right: 1em;
+    margin: 0em 1em .5em 0em;
     border: solid .2em white;
-    width: 18%;
+    width: 27%;
     max-height: 20%;
 }
 

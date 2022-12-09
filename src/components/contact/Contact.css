@@ -1,6 +1,6 @@
 .contactContainer {
     background-color:rgb(78, 78, 78);
-    min-height: 20em;
+    /* min-height: 20em; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

@@ -3,7 +3,7 @@ import "./Store.css"
 
 export const Store = () => (
     <>
-        <div  className="tourContainer">
+        <div  className="storeContainer">
             <h2 className="tourDateHeader">OFFICIAL LOWFYE50 MERCHANDISE</h2>
             <div className="solid"></div>
             <div className="noMerchBox">

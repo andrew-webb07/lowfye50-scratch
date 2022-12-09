@@ -18,3 +18,9 @@
     border: #bbb solid .3em;
     max-width: 15%;
 }
+
+.storeContainer {
+    background-color: white;
+    color: black;
+    min-height: 55vmax;
+}

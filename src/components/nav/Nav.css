@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-right: 1.5em;
-    /* background-color: rgb(78, 78, 78); */
     min-width: 55%;
 }
 
@@ -14,19 +13,13 @@
 }
 
 .navbarLogo {
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
-    /* justify-content: left; */
     width: 15%
 }
 
 .navbar__item {
-    /* flex-basis: 80%; */
     list-style-type: none;
     padding: .5em;
     text-align: center;
-    /* background-color: rgb(78, 78, 78); */
-    /* box-shadow: black .2em .2em .2em; */
     margin: 0em 1em .5em 0em;
     border: solid .2em white;
     width: 27%;
@@ -54,5 +47,5 @@ ul {
 
 
 .logoNav {
-    width: 10%;
+    width: 8vmax;
 }

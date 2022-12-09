@@ -1,18 +1,19 @@
 .musicContainer {
     color: white;
-    min-height: 45em;
-    background-image: url('../images/blackBandPic.jpg');
+    min-height: 50.6vi;
+    background-image: url('../images/musicVideoPicBlk.jpg');
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;
-    background-size: 73%;
+    /* background-size: 73%; */
+    background-size: 100.6vmin;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .firstMusicItem {
-    margin-top: 2.5em;
+    margin-top: 5.5em;
 }
 
 .fab {  
@@ -43,10 +44,11 @@
     justify-content: center;
     min-width: 5em;
     object-fit: contain;
+    opacity: .7;
 }
 
 .musicIcon:hover {
-    background-color: rgb(180, 180, 180) !important;
+    background-color: rgb(67, 67, 67) !important;
     /* color:white !important; */
     opacity: 1 !important;
 }

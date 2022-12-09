@@ -9,11 +9,13 @@
 }
 
 .logo {
-    width: 77%;
+    max-width: 77%;
+    min-width: 90vmin;
 }
 
 .bandPic {
-    width: 70%;
+    max-width: 70%;
+    min-width: 90vmin;
     height: auto;
 }
 

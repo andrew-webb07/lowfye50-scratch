@@ -25,6 +25,23 @@
 }
 
 .bio {
-    width: 65%;
-    font-size: 1.6vmax;
+    max-width: 90%;
+    width: 65vmax;
+    /* font-size: 1.6vmax; */
+    line-height: 1.4em;
+    font-size: .9em;
 }
+
+@media only screen and (min-width: 50px) {
+
+    .bio { 
+       font-size: .8em; 
+    }
+ }
+
+ @media only screen and (min-width: 1000px) {
+
+    .bio { 
+       font-size: 1.2em; 
+    }
+ }

@@ -9,7 +9,7 @@ export const NavBar = () => {
         <div className="navbarContainer">
 
             <div className="navbar__logo_item">
-                    <Link className="navbar__link" to="/">
+                    <Link className="" to="/">
                         <img src={LF50Logo} alt="logo" className="logoNav" />
                     </Link>
                 </div>

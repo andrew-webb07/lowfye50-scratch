@@ -14,19 +14,9 @@ export const NavBar = () => {
                     </Link>
                 </div>
             <ul className="navbar">
-            
-                {/* <div className="navbar__item">
-                    <Link className="navbar__link" to="/">HOME</Link>
-                </div> */}
-                <li className="navbar__item">
-                    <Link className="navbar__link" to="/music">MUSIC</Link>
-                </li>
-                <li className="navbar__item">
-                    <Link className="navbar__link" to="/tour">TOUR</Link>
-                </li>
-                <li className="navbar__item">
-                    <Link className="navbar__link" to="/store">STORE</Link>
-                </li>
+                    <Link className="navbar__item" to="/music">MUSIC</Link>
+                    <Link className="navbar__item" to="/tour">TOUR</Link>
+                    <Link className="navbar__item" to="/store">STORE</Link>
             </ul>
         </div>
         </>

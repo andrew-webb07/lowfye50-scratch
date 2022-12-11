@@ -24,6 +24,8 @@
     border: solid .2em white;
     width: 27%;
     max-height: 20%;
+    color: white;
+    text-decoration: none;
 }
 
 .navbar__item:hover {
@@ -35,10 +37,10 @@
     min-width: 45%;
 }
 
-.navbar__link {
+/* .navbar__link {
     color: white;
     text-decoration: none;
-}
+} */
 
 ul {
     list-style: none;

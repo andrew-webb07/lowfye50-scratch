@@ -3,6 +3,7 @@ import { LandingPage } from "../landingPage/LandingPage"
 import { Music } from "../musicPage/Music"
 import { Store } from "../store/Store"
 import { Tour } from "../tour/Tour"
+import { Epk } from "../epk/Epk"
 
 export const ApplicationViews = () => {
 	return (
@@ -14,6 +15,8 @@ export const ApplicationViews = () => {
             <Route path="/music" element={ <Music /> } />
 
             <Route path="/store" element={ <Store /> } />
+
+            <Route path="/epk" element={ <Epk /> } />
         </Routes>
     )
 }

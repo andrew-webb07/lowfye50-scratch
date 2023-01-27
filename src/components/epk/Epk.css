@@ -1,0 +1,23 @@
+.mp3Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 75%;
+    align-items: center;
+    align-content: center;
+}
+
+.songs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.techRiderContainer {
+    display: flex;
+    justify-content: center;
+    /* min-width: 95em; */
+}

@@ -23,12 +23,16 @@ export const Epk = () => (
 
         <div className="songs">
             <div className="mp3Box solid">
-                <div className="">Stuck In The Middle</div>
+                <div className="track">Stuck In The Middle</div>
+                <div className="audioTrack">
                 <audio controls><source src={SITM} type="audio/mpeg" /></audio>
+                </div>
             </div>
             <div className="mp3Box solid">
-                <div className="tourDate month">Honey Locust</div>
+                <div className="track">Honey Locust</div>
+                <div className="audioTrack">
                 <audio controls><source src={honey_locust} type="audio/mpeg" /></audio>
+                </div>
             </div>
         </div> 
         <div className="mp3Box solid"></div>

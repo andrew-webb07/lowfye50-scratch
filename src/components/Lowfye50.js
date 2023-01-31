@@ -6,6 +6,9 @@ import lowfye50black from "./images/lowfye50black.jpg"
 import bandPic from "./images/bandPic.jpg"
 import "./Lowfye50.css"
 import { ApplicationViews } from "./views/ApplicationViews";
+import { NavBarEpk } from "./nav/NavBarEpk";
+import { Epk } from "./epk/Epk";
+import { ContactEpk } from "./contact/ContactEpk";
 
 export const Lowfye50 = () => (
     <Routes>
@@ -14,6 +17,14 @@ export const Lowfye50 = () => (
                 <NavBar />
                 <ApplicationViews />
                 <Contact />
+            </>
+		} />
+
+    <Route path="/epk" element={
+            <>
+                <NavBarEpk />
+                <Epk />
+                <ContactEpk />
             </>
 		} />
     </Routes>

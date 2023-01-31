@@ -13,6 +13,13 @@
     min-width: 33%
 }
 
+.contactSectionEpk {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* min-width: 33% */
+}
+
 .shareHeader {
     margin: 0;
     padding: 1em 1em 0em 1em;
@@ -51,10 +58,14 @@
     text-align: center;  
     margin: 1em .5em;  
     font-size: 2em;  
-    width: 1em;
+    /* width: 1em; */
     height: 1em;
     border-radius: 50%;
-} 
+}
+
+.phone {
+    margin-top: 1em;
+}
 
 .fa:hover {  
     opacity: 0.6;  

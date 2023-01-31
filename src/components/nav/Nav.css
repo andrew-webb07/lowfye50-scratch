@@ -6,6 +6,14 @@
     min-width: 55%;
 }
 
+.navbarEpk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 1.5em;
+    min-width: 55%;
+}
+
 .navbarContainer {
     display: flex;
     align-items: center;
@@ -28,8 +36,24 @@
     text-decoration: none;
 }
 
+.navbar__item_epk {
+    list-style-type: none;
+    padding: .5em 4.5em;
+    text-align: center;
+    margin: 0em 1em .5em 0em;
+    border: solid .2em white;
+    width: 27%;
+    max-height: 20%;
+    color: white;
+    text-decoration: none;
+}
+
 .navbar__item:hover {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(49, 49, 49);
+}
+
+.navbar__item_epk:hover {
+    background-color: rgb(49, 49, 49);
 }
 
 .navbar__logo_item {

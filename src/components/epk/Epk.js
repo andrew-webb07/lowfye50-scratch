@@ -3,7 +3,7 @@ import lowfye50black from "../images/RedLowfye50.jpg"
 import bandPic from "../images/musicVideoShootGreen.jpg"
 import SITM from "../audio/STUCK_IN_THE_MIDDLE.mp3"
 import honey_locust from "../audio/Honey_Locust.mp3"
-import techRider from "../images/Lowfye50_Stage_Plot.png"
+import techRider from "../images/Lowfye50_Stage_Plot_4.png"
 import { Tour } from "../tour/Tour"
 import "./Epk.css"
 
@@ -21,6 +21,8 @@ export const Epk = () => (
             </h3>
         </div>
 
+        <h1>MUSIC</h1>
+
         <div className="songs">
             <div className="mp3Box solid">
                 <div className="track">Stuck In The Middle</div>
@@ -37,7 +39,7 @@ export const Epk = () => (
         </div> 
         <div className="mp3Box solid"></div>
 
-        <h1>Tech Rider</h1>
+        <h1>TECH RIDER</h1>
 
         <div className="techRiderContainer">
             <img src={techRider} alt="bandPic" className="bandPic" />

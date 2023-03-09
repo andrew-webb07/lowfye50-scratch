@@ -33,8 +33,12 @@ export const Tour = () => (
                                     <div className="tourDate locationCityState">{show.locationCityState}</div>
                                 </div>
                                 <div className="tourDateButtonContainer">
-                                    <button className="tourDateButton rsvp">RSVP</button>
-                                    <button className="tourDateButton tickets">Tickets</button>
+                                    <button className="tourDateButton rsvp">
+                                        <a target="_blank" href={show.eventRsvp}>RSVP</a>
+                                    </button>
+                                    <button className="tourDateButton tickets">
+                                        <a target="_blank" href={show.eventTickets}>Tickets</a>
+                                    </button>
                                 </div>
                             </div>
                         </div> 

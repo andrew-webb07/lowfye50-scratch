@@ -6,8 +6,8 @@ export const database = {
             eventName: "Lucky Fest",
             locationName : "Strawberry Basement",
             locationCityState : "Nashville, TN",
-            eventRsvp: "https://www.strawberryberryband.com/shows/events/st-patricks-day-lucky-fest",
-            eventTickets: "https://www.strawberryberryband.com/shows/events/st-patricks-day-lucky-fest"
+            eventRsvp: "https://www.strawberryberryband.com/tickets/store/p/st-patricks-day-lucky-fest",
+            eventTickets: "https://www.strawberryberryband.com/tickets/store/p/st-patricks-day-lucky-fest"
 
         },
         // {

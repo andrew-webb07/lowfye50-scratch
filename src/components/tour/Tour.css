@@ -10,6 +10,12 @@
     padding-top: 1em;
 }
 
+.tourNoShowsHeader {
+    text-align: center;
+    font-size: 4vmin;
+    padding-top: .7em;
+}
+
 .tourDates {
     display: flex;
     justify-content: center;

@@ -10,11 +10,13 @@ export const database = {
             eventTickets: "https://www.strawberryberryband.com/tickets/store/p/st-patricks-day-lucky-fest"
 
         },
-        // {
-        //     id: 2,
-        //     date : "01/15/2023",
-        //     locationName : "Basement East",
-        //     locationCityState : "East Nashville, TN"
-        // },
+        {
+            id: 2,
+            date : "04/08/2023",
+            locationName : "The Cobra",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "https://www.masonpacemusic.com/events/april-8-nashville-tn",
+            eventTickets: "https://www.masonpacemusic.com/events/april-8-nashville-tn"
+        },
     ],
 }

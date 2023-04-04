@@ -18,5 +18,29 @@ export const database = {
             eventRsvp: "https://www.masonpacemusic.com/events/april-8-nashville-tn",
             eventTickets: "https://www.masonpacemusic.com/events/april-8-nashville-tn"
         },
+        {
+            id: 3,
+            date : "04/07/2023",
+            locationName : "Springwater Supper Club & Lounge",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "",
+            eventTickets: ""
+        },
+        {
+            id: 4,
+            date : "04/16/2023",
+            locationName : "Springwater Supper Club & Lounge",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "",
+            eventTickets: ""
+        },
+        {
+            id: 4,
+            date : "04/24/2023",
+            locationName : "Cafe Coco",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "",
+            eventTickets: ""
+        },
     ],
 }

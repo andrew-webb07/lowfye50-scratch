@@ -41,17 +41,25 @@ export const Tour = () => (
                         <div className="tourDates">
                             <div className="tourDateContainer solid">
                                 <div className="tourDateInfoBox">
-                                    <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong></div>
-                                    <div className="tourDate month">{getMonthName(Number(show.date.split('/')[0]))}</div>
+                                    <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong> {getMonthName(Number(show.date.split('/')[0]))}</div>
+                                    {/* <div className="tourDate month">{getMonthName(Number(show.date.split('/')[0]))}</div> */}
                                     <div className="tourDate locationName">{show.locationName}</div>
                                     <div className="tourDate locationCityState">{show.locationCityState}</div>
                                 </div>
                                 <div className="tourDateButtonContainer">
                                     <button className="tourDateButton rsvp">
+                                        {show.eventRsvp ?
                                         <a target="_blank" href={show.eventRsvp}>RSVP</a>
+                                        :
+                                        <div>RSVP</div>
+                                        }
                                     </button>
                                     <button className="tourDateButton tickets">
-                                        <a target="_blank" href={show.eventTickets}>Tickets</a>
+                                    {show.eventRsvp ?
+                                        <a target="_blank" href={show.eventTickets}>TICKETS</a>
+                                        :
+                                        <div>TICKETS</div>
+                                        }
                                     </button>
                                 </div>
                             </div>
@@ -68,19 +76,18 @@ export const Tour = () => (
                         <div className="tourDates">
                             <div className="tourDateContainer solid">
                                 <div className="tourDateInfoBox">
-                                    <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong></div>
-                                    <div className="tourDate month">{getMonthName(Number(show.date.split('/')[0]))}</div>
+                                <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong> {getMonthName(Number(show.date.split('/')[0]))}</div>
                                     <div className="tourDate locationName">{show.locationName}</div>
                                     <div className="tourDate locationCityState">{show.locationCityState}</div>
                                 </div>
-                                <div className="tourDateButtonContainer">
+                                {/* <div className="tourDateButtonContainer">
                                     <button className="tourDateButton rsvp">
                                         <a target="_blank" href={show.eventRsvp}>RSVP</a>
                                     </button>
                                     <button className="tourDateButton tickets">
                                         <a target="_blank" href={show.eventTickets}>Tickets</a>
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div> 
                         </>

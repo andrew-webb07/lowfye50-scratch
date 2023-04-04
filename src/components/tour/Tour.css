@@ -27,8 +27,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* align-items: flex-start; */
     flex-wrap: wrap;
-    min-width: 75%;
+    width: 90%;
 }
 
 .noShowsContainer {
@@ -47,6 +48,8 @@
 .tourDateInfoBox {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 50%;
+    flex-direction: column;
 }
 
 .tourDate {
@@ -76,6 +79,10 @@
 .day {
     font-size: 1.5em;
 }
+/* 
+.month {
+    font-size: 1.2em;
+} */
 
 .solid {
     border-top: 3px solid #bbb;

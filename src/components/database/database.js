@@ -35,10 +35,26 @@ export const database = {
             eventTickets: ""
         },
         {
-            id: 4,
+            id: 5,
             date : "04/24/2023",
             locationName : "Cafe Coco",
             locationCityState : "Nashville, TN",
+            eventRsvp: "",
+            eventTickets: ""
+        },
+        {
+            id: 6,
+            date : "05/27/2023",
+            locationName : "404 Bar And grill",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "",
+            eventTickets: ""
+        },
+        {
+            id: 7,
+            date : "06/03/2023",
+            locationName : "Bring It Back games",
+            locationCityState : "Shelbyville, TN",
             eventRsvp: "",
             eventTickets: ""
         },

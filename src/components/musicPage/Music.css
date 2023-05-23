@@ -52,3 +52,7 @@
     /* color:white !important; */
     opacity: 1 !important;
 }
+
+.preSave {
+    color: black;
+}

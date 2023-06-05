@@ -1,12 +1,17 @@
 import React from "react"
 import youtube from "../images/pngwing.png"
 import appleMusic from "../images/appleMusic.png"
+import SITM from "../images/SITM_artwork.jpg"
 import "./Music.css"
 
 export const Music = () => (
     <>
         <div  className="musicContainer">
             {/* <h2 className="tourDateHeader">Tour Dates</h2> */}
+
+            {/* <div className="firstMusicItem">
+                <a target="_blank" href="https://orcd.co/dryqjrx" className="musicIcon fab preSave"><img src={SITM} alt="bandPic" className="preSavePhoto" />PRE-SAVE</a>
+            </div> */}
 
             <div className="firstMusicItem">
                 <a target="_blank" href="https://orcd.co/dryqjrx" className="musicIcon fab preSave">PRE-SAVE</a>

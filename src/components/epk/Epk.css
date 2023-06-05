@@ -23,5 +23,42 @@
 }
 
 .audioTrack {
-    margin-right: 17vmax;
+    /* margin-right: 17vmax; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addMargin {
+    margin:1em;
+}
+
+
+.photoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.epkPhoto {
+    object-fit: cover;
+    width: 22em;
+    height: 22em;
+    margin: 1.5em;
+}
+
+.preSavePhoto {
+    object-fit: cover;
+    width: 3em;
+    height: 3em;
+    margin-left: 1em
+}
+
+.preSavePhoto:hover {  
+    opacity: 0.5;  
+} 
+
+.singleOut {
+    display: flex;
+    align-items: center;
 }

@@ -31,11 +31,6 @@
     color: white;  
 }  
 
-.fa-spotify {  
-    background: white;  
-    color: #1DB954;  
-}  
-
 .musicIcon {
     background-color: white;
     /* color: black; */
@@ -55,4 +50,5 @@
 
 .preSave {
     color: black;
+    /* font-size: small; */
 }

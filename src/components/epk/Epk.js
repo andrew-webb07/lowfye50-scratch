@@ -4,7 +4,8 @@ import bandPic from "../images/musicVideoShootGreen.jpg"
 import SITM from "../audio/STUCK_IN_THE_MIDDLE.mp3"
 import honey_locust from "../audio/Honey_Locust.mp3"
 import techRider from "../images/Lowfye50_Stage_Plot_4.png"
-import { Tour } from "../tour/Tour"
+import { PhotoSection } from "./PhotoSection"
+import SITMPic from "../images/SITM_artwork.jpg"
 import "./Epk.css"
 
 export const Epk = () => (
@@ -27,7 +28,12 @@ export const Epk = () => (
             <div className="mp3Box solid">
                 <div className="track">Stuck In The Middle</div>
                 <div className="audioTrack">
-                <audio controls><source src={SITM} type="audio/mpeg" /></audio>
+                {/* <audio controls><source src={SITM} type="audio/mpeg" /></audio> */}
+                    <div>Available on all platforms!</div>
+                    {/* <div>-</div> */}
+                    <a target="_blank" href="https://orcd.co/dryqjrx" className="singleOut">
+                        <img src={SITMPic} alt="SITM" className="preSavePhoto" />
+                    </a> 
                 </div>
             </div>
             <div className="mp3Box solid">
@@ -39,12 +45,16 @@ export const Epk = () => (
         </div> 
         <div className="mp3Box solid"></div>
 
+        <PhotoSection />
+
+        <div className="mp3Box solid"></div>
+
         <h1>TECH RIDER</h1>
 
         <div className="techRiderContainer">
             <img src={techRider} alt="bandPic" className="bandPic" />
         </div>
-        <div className="mp3Box solid"></div>
+        <div className="addMargin"></div>
 
     </>
 )

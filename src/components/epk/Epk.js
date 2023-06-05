@@ -1,7 +1,6 @@
 import React from "react"
 import lowfye50black from "../images/RedLowfye50.jpg"
 import bandPic from "../images/musicVideoShootGreen.jpg"
-import SITM from "../audio/STUCK_IN_THE_MIDDLE.mp3"
 import honey_locust from "../audio/Honey_Locust.mp3"
 import techRider from "../images/Lowfye50_Stage_Plot_4.png"
 import { PhotoSection } from "./PhotoSection"

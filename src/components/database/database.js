@@ -58,5 +58,13 @@ export const database = {
             eventRsvp: "",
             eventTickets: ""
         },
+        {
+            id: 8,
+            date : "08/11/2023",
+            locationName : "Brooklyn Bowl",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "https://www.ticketmaster.com/lore-nashville-tennessee-08-11-2023/event/1B005EEBBB8C3351",
+            eventTickets: "https://www.ticketmaster.com/lore-nashville-tennessee-08-11-2023/event/1B005EEBBB8C3351"
+        },
     ],
 }

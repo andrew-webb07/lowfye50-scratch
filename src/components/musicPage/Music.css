@@ -45,10 +45,27 @@
 .musicIcon:hover {
     background-color: rgb(67, 67, 67) !important;
     /* color:white !important; */
-    opacity: 1 !important;
+    opacity: .6 !important;
 }
 
 .preSave {
     color: black;
     /* font-size: small; */
+}
+
+.spotifySingle {
+    /* background-color: black; */
+    /* color: black; */
+    border-radius: 0% !important;
+    display: flex;
+    justify-content: center;
+    max-width: 20em;
+    object-fit: contain;
+    /* opacity: .7; */
+}
+
+.spotifySingle:hover {
+    /* background-color: rgb(67, 67, 67) !important; */
+    /* color:white !important; */
+    opacity: .95 !important;
 }

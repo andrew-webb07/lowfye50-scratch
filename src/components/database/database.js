@@ -66,5 +66,13 @@ export const database = {
             eventRsvp: "https://www.ticketmaster.com/lore-nashville-tennessee-08-11-2023/event/1B005EEBBB8C3351",
             eventTickets: "https://www.ticketmaster.com/lore-nashville-tennessee-08-11-2023/event/1B005EEBBB8C3351"
         },
+        {
+            id: 9,
+            date : "10/07/2023",
+            locationName : "The Cobra",
+            locationCityState : "Nashville, TN",
+            eventRsvp: "https://cobranashville.com/event/mick-blankenship-w-jesse-kramer-lowfye50/",
+            eventTickets: "https://www.eventbrite.com/e/mick-blankenship-w-jesse-kramer-lowfye50-tickets-689049795487?aff=oddtdtcreator"
+        },
     ],
 }

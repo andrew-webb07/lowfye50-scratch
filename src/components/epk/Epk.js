@@ -2,8 +2,9 @@ import React from "react"
 import lowfye50black from "../images/RedLowfye50.jpg"
 import bandPic from "../images/musicVideoShootGreen.jpg"
 import honey_locust from "../audio/Honey_Locust.mp3"
-import techRider from "../images/Lowfye50_Stage_Plot_4.png"
+import techRider from "../images/Lowfye50_4_piece_w_Jared.png"
 import { PhotoSection } from "./PhotoSection"
+import { PromoVideo } from "./PromoVideo"
 import SITMPic from "../images/SITM_artwork.jpg"
 import "./Epk.css"
 
@@ -21,6 +22,10 @@ export const Epk = () => (
             </h3>
         </div>
 
+        {/* <h1>VIDEOS</h1> */}
+        <PromoVideo />
+
+
         <h1>MUSIC</h1>
 
         <div className="songs">
@@ -28,11 +33,8 @@ export const Epk = () => (
                 <div className="track">Stuck In The Middle</div>
                 <div className="audioTrack">
                 {/* <audio controls><source src={SITM} type="audio/mpeg" /></audio> */}
-                    <div>Available on all platforms!</div>
-                    {/* <div>-</div> */}
-                    <a target="_blank" href="https://orcd.co/dryqjrx" className="singleOut">
-                        <img src={SITMPic} alt="SITM" className="preSavePhoto" />
-                    </a> 
+                    {/* <div>Available on all platforms!</div> */}
+                    <iframe className="spotifySingleEpk" src="https://open.spotify.com/embed/track/5Xu0COMu0mCtKzPdtpePaz?utm_source=generator" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                 </div>
             </div>
             <div className="mp3Box solid">

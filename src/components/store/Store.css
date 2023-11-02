@@ -40,6 +40,16 @@
     justify-content: center;
     align-items: center;
   }
+
+  .merchItemPrice {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .merchItemShipping {
+    margin-top: .2rem;
+    font-size: 1rem;
+  }
   
   .merchButton {
     margin-bottom: 1rem;
@@ -121,6 +131,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+
+      .merchItemPrice {
+        margin-top: .4rem;
+        font-size: 1.2rem;
+      }
+    
+      .merchItemShipping {
+        margin-top: .2rem;
+        font-size: .7rem;
       }
 
       img {

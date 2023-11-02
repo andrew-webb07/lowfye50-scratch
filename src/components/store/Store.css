@@ -88,6 +88,12 @@
     margin-top: 0.8rem;
     font-size: 1.4rem;
   }
+
+  .flip-card-inner:hover {
+    box-shadow: 0 0 1.2rem #ccc;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  }
   
   label {
     display: block;

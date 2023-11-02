@@ -23,6 +23,7 @@ export const Contact = () => (
                 <div className="icons">
                 <a target="_blank" href="https://www.instagram.com/lowfye50/" className="fab fa-instagram"></a>
                 <a target="_blank" href="https://www.tiktok.com/@lowfye50?lang=en" className="fab fa-tiktok"></a>
+                <a target="_blank" href="https://www.facebook.com/lowfye50/" className="fab fa-facebook"></a>
                 <a target="_blank" href="https://open.spotify.com/artist/72ZHgiAkpuDJC9P2C2HGZI?si=T9yidNLCQzeM20oDpu-epA" className="fab fa-spotify"></a>
                 </div>
             </div>
@@ -30,7 +31,7 @@ export const Contact = () => (
             <div className="contactSection">
                 <h1>CONTACT</h1>
                 <div className="icons">
-                <a className="fa fa-envelope" href="mailto:lowfye50band@gmail.com?subject=Interested%20in%20Lowfye50"></a>
+                <a className="fa fa-envelope bottomEnvelope" href="mailto:lowfye50band@gmail.com?subject=Interested%20in%20Lowfye50"></a>
                 </div>
             </div>
         </div>

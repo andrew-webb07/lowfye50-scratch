@@ -29,7 +29,7 @@ export const Music = () => (
                 <a target="_blank" href="https://music.apple.com/us/artist/lowfye-50/1513025358"><img src={appleMusic} className="musicIcon fab"></img></a>
             </div>
 
-            <iframe className="spotifySingle" src="https://open.spotify.com/embed/track/5Xu0COMu0mCtKzPdtpePaz?utm_source=generator" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            {/* <iframe className="spotifySingle" src="https://open.spotify.com/embed/track/5Xu0COMu0mCtKzPdtpePaz?utm_source=generator" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> */}
         </div>
     </>
 )

@@ -6,8 +6,6 @@ import { getShows } from "../database/dataAccess.js";
 const shows = getShows();
 
 const date = new Date();
-// date.setDate(date.getDate()-1)
-// d.setDate(d.getDate()-5);
 
 function getMonthName(monthNumber) {
     date.setMonth(monthNumber - 1);
@@ -18,9 +16,6 @@ function getMonthName(monthNumber) {
 
 console.log(date)
 const sortedShows = shows.sort((show1, show2) => (Date.parse(show1.date) - Date.parse(show2.date)))
-
-// const pastShows = sortedShows.filter(show => Date.parse(show.date) < date)
-//     .sort((show1, show2) => (Date.parse(show2.date) - Date.parse(show1.date)));
 
 const upcomingShows = sortedShows.filter(show => Date.parse(show.date) >= date)
     .sort((show1, show2) => (Date.parse(show1.date) - Date.parse(show2.date)))
@@ -42,7 +37,6 @@ export const Tour = () => (
                             <div className="tourDateContainer solid">
                                 <div className="tourDateInfoBox">
                                     <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong> {getMonthName(Number(show.date.split('/')[0]))}</div>
-                                    {/* <div className="tourDate month">{getMonthName(Number(show.date.split('/')[0]))}</div> */}
                                     <div className="tourDate locationName">{show.locationName}</div>
                                     <div className="tourDate locationCityState">{show.locationCityState}</div>
                                 </div>
@@ -80,14 +74,6 @@ export const Tour = () => (
                                     <div className="tourDate locationName">{show.locationName}</div>
                                     <div className="tourDate locationCityState">{show.locationCityState}</div>
                                 </div>
-                                {/* <div className="tourDateButtonContainer">
-                                    <button className="tourDateButton rsvp">
-                                        <a target="_blank" href={show.eventRsvp}>RSVP</a>
-                                    </button>
-                                    <button className="tourDateButton tickets">
-                                        <a target="_blank" href={show.eventTickets}>Tickets</a>
-                                    </button>
-                                </div> */}
                             </div>
                         </div> 
                         </>

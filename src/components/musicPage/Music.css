@@ -5,8 +5,7 @@
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;
-    /* background-size: 73%; */
-    background-size: contain;
+    background-size: 73%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,16 +14,6 @@
 .firstMusicItem {
     margin-top: 5.5vmax;
 }
-
-/* .fab {  
-    padding: 1rem;  
-    text-align: center;  
-    margin: 1em .5em;  
-    font-size: 2em;  
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-}   */
 
 .fa-youtube-play {  
     background: #bb0000;  
@@ -37,7 +26,7 @@
     border-radius: 0% !important;
     display: flex;
     justify-content: center;
-    min-width: 5em;
+    min-width: 6em;
     object-fit: contain;
     opacity: .7;
 }
@@ -57,10 +46,13 @@
     /* background-color: black; */
     /* color: black; */
     border-radius: 0% !important;
+    margin-top: 1rem;
+    margin-bottom:1rem;
     display: flex;
     justify-content: center;
-    max-width: 20em;
-    object-fit: contain;
+    min-width: 9em;
+    /* min-height: 10em; */
+    /* object-fit: contain; */
     /* opacity: .7; */
 }
 
@@ -68,4 +60,21 @@
     /* background-color: rgb(67, 67, 67) !important; */
     /* color:white !important; */
     opacity: .95 !important;
+}
+
+/* Styles for Mobile Mode */
+@media screen and (max-width: 768px) {
+      
+    .musicContainer {
+        color: white;
+        min-height: 50.6vi;
+        background-image: url('../images/musicVideoPicBlk.jpg');
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

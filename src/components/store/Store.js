@@ -6,37 +6,11 @@ import "./Store.css"
 
 export const Store = () => {
 
-    // Add an event listener to the button to change the image on the back side
-    // flipCard.addEventListener('click', () => {
-    // flipCardBack.src = SpiderTBack; // Replace 'image2.jpg' with the path to your second image
-    // });
-
-    // const handleClick = () => {
-    //     // Handle the click event here
-    //     alert('Button clicked!');
-    //   };
-
-    function ImageSwitcher() {
-        const [isFrontImage, setIsFrontImage] = useState(true);
+    const [isFrontImage, setIsFrontImage] = useState(true);
         
-        const handleClick = () => {
-            setIsFrontImage(!isFrontImage);
-        };
-        
-        return (
-            <div className="flip-card-inner" onClick={handleClick}>
-              <div className="flip-card" style={{ display: isFrontImage ? 'block' : 'none' }}>
-                <img src={SpiderTFront} alt="Front Image" />
-                <div style={{ textAlign: 'center' }}>{isFrontImage ? '1 of 2' : '2 of 2'}</div>
-                
-              </div>
-              <div className="flip-card" style={{ display: isFrontImage ? 'none' : 'block' }}>
-                <img src={SpiderTBack} alt="Back Image" />
-                <div style={{ textAlign: 'center' }}>{isFrontImage ? '1 of 2' : '2 of 2'}</div>
-              </div>
-            </div>
-          );
-    }
+    const handleClick = () => {
+        setIsFrontImage(!isFrontImage);
+    };
     
     return (
     <>
@@ -49,9 +23,30 @@ export const Store = () => {
 
             <div className="merchItemsContainer">
                 <div className="merchItemBox">
-                    {ImageSwitcher()}
+                    <div className="flip-card-inner" onClick={handleClick}>
+                        <div className="flip-card" style={{ display: isFrontImage ? 'block' : 'none' }}>
+                            <img src={SpiderTFront} alt="Front Image" />
+
+                            <div style={{ textAlign: 'center' }}>
+                                {isFrontImage ? '1 of 2' : '2 of 2'}
+                            </div>
+                        </div>
+
+                        <div className="flip-card" style={{ display: isFrontImage ? 'none' : 'block' }}>
+                            <img src={SpiderTBack} alt="Back Image" />
+
+                            <div style={{ textAlign: 'center' }}>
+                                {isFrontImage ? '1 of 2' : '2 of 2'}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='merchItemPrice'>Spider T - $30</div>
+                    <div className='merchItemShipping'><em>**Shipping price may vary</em></div>
                     
-                    <button className='merchButton'><Link className="" to="/store/request/spiderTshirt">PURCHASE</Link></button>
+                    <button className='merchButton'>
+                        <Link className="" to="/store/request/spiderTshirt">PURCHASE</Link>
+                    </button>
                 </div>
             </div>
         </div>

@@ -25,6 +25,10 @@ export const Store = () => {
                 <div className="merchItemBox">
                     <div className="flip-card-inner" onClick={handleClick}>
                         <div className="flip-card" style={{ display: isFrontImage ? 'block' : 'none' }}>
+                            <div className='shirtSize'>
+                                Front
+                            </div>
+
                             <img src={SpiderTFront} alt="Front Image" />
 
                             <div style={{ textAlign: 'center' }}>
@@ -33,6 +37,10 @@ export const Store = () => {
                         </div>
 
                         <div className="flip-card" style={{ display: isFrontImage ? 'none' : 'block' }}>
+                            <div className='shirtSize'>
+                                Back
+                            </div>
+
                             <img src={SpiderTBack} alt="Back Image" />
 
                             <div style={{ textAlign: 'center' }}>

@@ -60,6 +60,11 @@
     transition: opacity 5.5s ease-in-out;
   }
   
+  .shirtSize {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
   .request-form-container {
     background-color: black;
   }
@@ -141,6 +146,11 @@
       .merchItemShipping {
         margin-top: .2rem;
         font-size: .7rem;
+      }
+
+      .shirtSize {
+        text-align: center;
+        font-size: 1rem;
       }
 
       img {

@@ -13,6 +13,7 @@ export const RequestForm = () => {
     city: '',
     state: '',
     zipCode: '',
+    country: '',
     shirtSize: 'Pick a Size', // Default value
   });
 
@@ -30,6 +31,7 @@ export const RequestForm = () => {
       city: formData.city,
       state: formData.state,
       zipcode: formData.zipCode,
+      country: formData.country,
       item_size: formData.shirtSize,
   };
 
@@ -41,6 +43,7 @@ export const RequestForm = () => {
     city: false,
     state: false,
     zipCode: false,
+    country: false,
   });
 
   const handleChange = (e) => {
@@ -76,6 +79,7 @@ export const RequestForm = () => {
                 city: '',
                 state: '',
                 zipCode: '',
+                country: '',
                 shirtSize: 'Pick a Size',
               });
         
@@ -182,6 +186,17 @@ export const RequestForm = () => {
             type="text"
             name="zipCode"
             value={formData.zipCode}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label>Country:</label>
+          <input
+            type="text"
+            name="country"
+            value={formData.country}
             onChange={handleChange}
             required
           />

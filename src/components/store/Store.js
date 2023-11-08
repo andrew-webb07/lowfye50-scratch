@@ -52,9 +52,11 @@ export const Store = () => {
                     <div className='merchItemPrice'>Spider T - $30</div>
                     <div className='merchItemShipping'><em>**Shipping price may vary</em></div>
                     
-                    <button className='merchButton'>
-                        <Link className="" to="/store/request/spiderTshirt">PURCHASE</Link>
-                    </button>
+                    {/* <button className='merchButton'> */}
+                    <Link className="" to="/store/request/spiderTshirt">
+                    <button className='merchButton'>PURCHASE</button>
+                    </Link>
+                    {/* </button> */}
                 </div>
             </div>
         </div>

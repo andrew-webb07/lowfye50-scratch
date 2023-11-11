@@ -24,7 +24,7 @@ export const Lowfye50 = () => (
             <>
                 <NavBarEpk />
                 <Epk />
-                <ContactEpk />
+                <Contact />
             </>
 		} />
     </Routes>

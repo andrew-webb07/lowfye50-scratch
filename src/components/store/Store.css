@@ -26,13 +26,15 @@
   }
   
   .storeContainer {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     min-height: 55vmax;
   }
   
   .flip-card {
     box-shadow: 0 0 7px #ccc;
+    background-color: white;
+    color: black;
   }
   
   .merchItemsContainer {

@@ -30,37 +30,52 @@ export const Tour = () => (
             { shows.length > 0 
                 ? 
                 <>
-                {upcomingShows.map(show => {
-                    return (
-                        <>
-                        <div className="tourDates">
-                            <div className="tourDateContainer solid">
-                                <div className="tourDateInfoBox">
-                                    <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong> {getMonthName(Number(show.date.split('/')[0]))}</div>
-                                    <div className="tourDate locationName">{show.locationName}</div>
-                                    <div className="tourDate locationCityState">{show.locationCityState}</div>
-                                </div>
-                                <div className="tourDateButtonContainer">
-                                    <button className="tourDateButton rsvp">
+                { upcomingShows.length > 0 
+                    ?
+                    <>
+                    {upcomingShows.map(show => {
+                        return (
+                            <>
+                            <div className="tourDates">
+                                <div className="tourDateContainer solid">
+                                    <div className="tourDateInfoBox">
+                                        <div className="tourDate day"><strong>{show.date.split('/')[1]}</strong> {getMonthName(Number(show.date.split('/')[0]))}</div>
+                                        <div className="tourDate locationName">{show.locationName}</div>
+                                        <div className="tourDate locationCityState">{show.locationCityState}</div>
+                                    </div>
+                                    <div className="tourDateButtonContainer">
+                                        <button className="tourDateButton rsvp">
+                                            {show.eventRsvp ?
+                                            <a target="_blank" href={show.eventRsvp}>RSVP</a>
+                                            :
+                                            <div>RSVP</div>
+                                            }
+                                        </button>
+                                        <button className="tourDateButton tickets">
                                         {show.eventRsvp ?
-                                        <a target="_blank" href={show.eventRsvp}>RSVP</a>
-                                        :
-                                        <div>RSVP</div>
-                                        }
-                                    </button>
-                                    <button className="tourDateButton tickets">
-                                    {show.eventRsvp ?
-                                        <a target="_blank" href={show.eventTickets}>TICKETS</a>
-                                        :
-                                        <div>TICKETS</div>
-                                        }
-                                    </button>
+                                            <a target="_blank" href={show.eventTickets}>TICKETS</a>
+                                            :
+                                            <div>TICKETS</div>
+                                            }
+                                        </button>
+                                    </div>
                                 </div>
+                            </div> 
+                            </>
+                        )
+                    })}
+                    </>
+                    :
+                    <>
+                        <div className="tourDates">
+                            <div className="noShowsContainer solid">
+                                <h3 className="noShowsHeader">There are no current shows planned at this time</h3>
                             </div>
-                        </div> 
-                        </>
-                    )
-                })}
+                            {/* <div className="noShowsContainer solid"></div> */}
+                        </div>
+                    </>
+                }
+                
 
                 {pastShows.length > 0 ? <h3 className="tourNoShowsHeader">Past Shows</h3> : ''}
                 

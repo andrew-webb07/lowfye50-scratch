@@ -8,17 +8,6 @@
     height: auto;
 }
 
-.logo {
-    max-width: 77%;
-    min-width: 90vmin;
-}
-
-.bandPic {
-    max-width: 70%;
-    min-width: 90vmin;
-    height: auto;
-}
-
 .bioContainer {
     display: flex;
     justify-content: center;
@@ -33,13 +22,33 @@
 }
 
 @media only screen and (min-width: 50px) {
-
     .bio { 
        font-size: .8em; 
+    }
+
+    .logo {
+        width: 100%;
+        /* min-width: 90vmin; */
+    }
+    
+    .bandPic {
+        width: 70%;
+        /* min-width: 80vmin; */
+        height: auto;
     }
  }
 
  @media only screen and (min-width: 1000px) {
+    .logo {
+        width: 77%;
+        /* min-width: 90vmin; */
+    }
+    
+    .bandPic {
+        width: 60%;
+        /* min-width: 80vmin; */
+        height: auto;
+    }
 
     .bio { 
        font-size: 1.2em; 

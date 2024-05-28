@@ -3,6 +3,7 @@ import "./Contact.css"
 
 export const Contact = () => (
     <>
+        <div className="solid-bottom"></div>
         <div className="contactContainer">
             <div className="contactSection">
                 <div className="headerSection">

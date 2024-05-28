@@ -4,6 +4,12 @@
     padding: 1em;
     margin: 0.5em;
   }
+
+  .solid-bottom {
+    border-top: 6px solid #bbb;
+    margin-top: .5em;
+    margin: 0.5em;
+  }
   
   .noMerchBox {
     display: flex;

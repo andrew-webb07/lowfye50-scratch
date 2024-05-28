@@ -1,14 +1,27 @@
 .musicContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bandPicMusicPage {
+    max-width: 27%;
+    /* margin-left: 2em; */
+    /* min-width: 30em; */
+    /* height: auto; */
+}
+
+.iconContainer {
     color: white;
-    min-height: 50.6vi;
-    background-image: url('../images/musicVideoPicBlk.jpg');
+    /* min-height: 70em; */
+    /* background-image: url('../images/street_pic_2024.jpg'); */
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;
-    background-size: 73%;
+    /* background-size: 73%; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .firstMusicItem {
@@ -26,7 +39,8 @@
     border-radius: 0% !important;
     display: flex;
     justify-content: center;
-    min-width: 6em;
+    min-width: 10em;
+    padding: .8em;
     object-fit: contain;
     opacity: .7;
 }
@@ -65,16 +79,39 @@
 /* Styles for Mobile Mode */
 @media screen and (max-width: 768px) {
       
-    .musicContainer {
+    .iconContainer {
         color: white;
-        min-height: 50.6vi;
-        background-image: url('../images/musicVideoPicBlk.jpg');
+        /* min-height: 34em; */
+        /* background-image: url('../images/street_pic_2024.jpg'); */
         background-repeat: no-repeat;
         object-fit: cover;
         background-position: center;
         background-size: contain;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+    }
+
+    .musicIcon {
+        max-height: 1em;
+        background-color: white;
+        /* color: black; */
+        border-radius: 0% !important;
+        display: flex;
+        justify-content: center;
+        min-width: 6em;
+        object-fit: contain;
+        opacity: .7;
+        padding: .2em;
+        margin:.2em;
+    }
+
+    .bandPicMusicPage {
+        max-height: 23em;
+        max-width: 55%;
+        margin-left: .5em;
+        /* min-width: 30em; */
+        /* height: auto; */
     }
 }

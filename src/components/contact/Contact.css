@@ -1,5 +1,5 @@
 .contactContainer {
-    background-color:rgb(78, 78, 78);
+    background-color:black;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -39,6 +39,7 @@
 .icons {
     display:flex;
     justify-content: center;
+    box-shadow: #1DB954;
 }
 
 .fab {  
@@ -49,6 +50,8 @@
     width: 1em;
     height: 1em;
     border-radius: 50%;
+    /* box-shadow: 0 0 7px #ccc; */
+    border: solid 1px rgb(87, 87, 87);
 }  
 
 .fa {  
@@ -59,6 +62,8 @@
     /* width: 1em; */
     height: 1em;
     border-radius: 50%;
+    /* box-shadow: 0 0 7px #ccc; */
+    border: solid 1px rgb(87, 87, 87);
 }
 
 .phone {
@@ -116,6 +121,13 @@
     .shareHeader {
         margin: 0;
         /* padding: 1em 1em 0em 1em; */
+    }
+
+    .contactSection {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 33%
     }
 
     .fab {  

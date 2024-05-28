@@ -1,6 +1,6 @@
 import React from "react"
 import lowfye50black from "../images/RedLowfye50.jpg"
-import bandPic from "../images/musicVideoShootGreen.jpg"
+import bandPic from "../images/parking_garage_pic.jpeg"
 import { Tour } from "../tour/Tour"
 import "./LandingPage.css"
 

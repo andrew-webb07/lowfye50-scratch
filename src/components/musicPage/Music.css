@@ -7,6 +7,16 @@
     width: 27%;
 }
 
+.preSaveLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    /* margin-left: 8.2rem;
+    width:50% */
+    align-self: center;
+}
+
 .iconContainer {
     color: white;
     background-repeat: no-repeat;
@@ -90,5 +100,20 @@
 
     .bandPicMusicPage {
         width: 42%;
+    }
+
+    .preSaveLink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 70%;
+        max-height: 60%;
+        /* margin-top: 1rem; */
+        /* margin-left: 8.2rem;
+        width:50% */
+        margin: .5rem;
+        align-self: center;
+        overflow: hidden;
+        object-fit: contain;
     }
 }

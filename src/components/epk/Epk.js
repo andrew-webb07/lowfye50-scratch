@@ -7,6 +7,7 @@ import { PhotoSection } from "./PhotoSection"
 import { PromoVideo } from "./PromoVideo"
 import SITMPic from "../images/SITM_artwork.jpg"
 import "./Epk.css"
+import { Bio } from "../Bio"
 
 export const Epk = () => (
     <>
@@ -17,10 +18,7 @@ export const Epk = () => (
             <img src={bandPic} alt="bandPic" className="bandPic" />
         </div>
         <h1>BIO</h1>
-        <div className="bioContainer">
-            <h3 className="bio">Lowfye 50 is a Nashville based rock band storming the industry hot with ground breaking sound and deliverance. Each member being virtuosic with unique backgrounds makes for a perfect blend of chaos and soothe. The hard hitting band was produced and discovered by the rock industry’s very own guitarist Noah Henson. Alongside support from other names, the band tends to ride their own wave and flood the rock and metal world with their message. There first official single “Stuck In The Middle” is slated to be released in the new year of 2023 along with there first music video. This is a group prodigy that no one will see coming. 
-            </h3>
-        </div>
+        <Bio />
 
         {/* <h1>VIDEOS</h1> */}
         <PromoVideo />
@@ -41,6 +39,7 @@ export const Epk = () => (
             <div className="mp3Box solid">
                 <div className="track">These Horns</div>
                 <div className="audioTrack">
+                <iframe className="spotifySingleEpk" src="https://orcd.co/01gxklx" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                 <audio controls><source src={these_horns} type="audio/mpeg" /></audio>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import React from "react"
 import youtube from "../images/pngwing.png"
 import appleMusic from "../images/appleMusic.png"
 import SITM from "../images/SITM_artwork.jpg"
+import theseHornsPic from "../images/These_Horns.png"
 import "./Music.css"
 import bandPic from "../images/street_pic_2024.jpg"
 
@@ -13,15 +14,9 @@ export const Music = () => (
             {/* </div> */}
 
             <div  className="iconContainer">
-                {/* <h2 className="tourDateHeader">Tour Dates</h2> */}
-
-                {/* <div className="firstMusicItem">
-                    <a target="_blank" href="https://orcd.co/dryqjrx" className="musicIcon fab preSave"><img src={SITM} alt="bandPic" className="preSavePhoto" />PRE-SAVE</a>
-                </div> */}
-
-                {/* <div className="firstMusicItem">
-                    <a target="_blank" href="https://orcd.co/dryqjrx" className="musicIcon fab preSave">PRE-SAVE</a>
-                </div> */}
+                <div className="audioTrack preSaveLink">
+                    <iframe className="spotifySingleEpk" src="https://orcd.co/01gxklx" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
 
                 <div>
                     <a target="_blank" href="https://open.spotify.com/artist/72ZHgiAkpuDJC9P2C2HGZI?si=T9yidNLCQzeM20oDpu-epA" className="musicIcon fab fa-spotify">Spotify</a>

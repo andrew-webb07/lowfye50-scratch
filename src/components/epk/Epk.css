@@ -64,7 +64,7 @@
 }
 
 .spotifySingleEpk {
-
+    object-fit: contain;
 }
 
 .spotifySingle {
